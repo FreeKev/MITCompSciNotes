@@ -163,6 +163,12 @@
 # Older versions of py round up to 1 in print
 
 # Worry about == on floats
+# eg ->
+# ma = 0.1 + 0.2
+# # Expect FALSE!
+# print("Does .1 + .2 = .3?", 0.1 + 0.2 == .3)
+# print(".1 + .2 in python is ", ma)
+
 
 # import math
 # a = math.sqrt(2)
@@ -177,8 +183,6 @@
 
 # HW -> Read floating point arithmetic &
 # Write binary search in py
-
-
 
 
 # LECTURE SIX - 6
