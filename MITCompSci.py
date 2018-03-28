@@ -186,3 +186,40 @@
 
 
 # LECTURE SIX - 6
+
+# -> Binary search
+
+# Regression testing (func doesn't regress)
+# But continues working well
+
+# #of iterations -> speed of convergence
+
+# Non-scalar (Tuple & Strings)
+# -> Immutable.
+
+# -> Mutable ->
+# List
+# L1 = [1,2,3]
+# L2 = L1
+# print(L2)
+# L1[0] = 2
+# print(L2)
+# print(L1)
+
+# Contra Immutable ->
+# a = 1
+# b = a
+# a = 2
+# print(b)
+#expects 1
+
+# Mutable cont ->
+# Dictionaries
+# & unordered
+# Generalized indexing
+# Key-val pairs dict
+
+# yeah = {'soccer': 'football', 'never': 'jamais'}
+
+# print(yeah['soccer'])
+# print(sorted(yeah.keys()))
