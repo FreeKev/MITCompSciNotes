@@ -185,7 +185,7 @@
 # Write binary search in py
 
 
-# LECTURE SIX - 6
+# LECTURE SIX - 6 & 7
 
 # -> Binary search
 
@@ -223,3 +223,71 @@
 
 # print(yeah['soccer'])
 # print(sorted(yeah.keys()))
+
+
+
+# LECTURE EIGHT - 8
+# Complexity; log, linear, quadratic, exponential algorithms
+
+
+# Into the weeds of complexity
+# What kind of efficiency your code has
+# Relate code-choice to efficiency
+# Canonical algorithms for classes of complexity ->
+# Map new problems into old domains ->
+
+# Rate of growth as size of problem grows
+# Asymptotic Notation
+# BigO - Upper limit to growth of function as input gets large ->
+# f(x)EO(n2)
+
+# Exponents algorithms ->
+
+# This Grows linear ->
+def exp1(a,b):
+  ans = 1
+  while (b>0):
+    ans *= a
+    b -= 1
+  return ans
+
+print(exp1(2,3))
+
+# Same as 1, but Recursive
+# About the same steps, linear
+# see @12 for equation
+
+def exp2(a,b):
+  if b == 1:
+    return a
+  else: return a*exp2(a,b-1)
+
+print(exp2(2,3))
+
+def exp3(a,b):
+  if b == 1:
+    return a
+  # Even case
+  if (b%2)*2 == b:
+    return exp3(a*a, b/2)
+  # Odd case
+  else: return a*exp3(a,b-1)
+
+print(exp3(2,3))
+# But rate of growth! ->
+# 0(logB)
+# Reduce in half
+
+
+# def g(n,m):
+#   x = 0
+#   for i in range(n):
+#     for j in range(m):
+#       x += 1
+#   return x
+# print(g(2,3))
+# O(n2) -> quadratic
+
+
+# Temple of Hannoi ->
+# Discs from one post to another
