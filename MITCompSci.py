@@ -251,7 +251,7 @@ def exp1(a,b):
     b -= 1
   return ans
 
-print(exp1(2,3))
+# print(exp1(2,3))
 
 # Same as 1, but Recursive
 # About the same steps, linear
@@ -262,7 +262,7 @@ def exp2(a,b):
     return a
   else: return a*exp2(a,b-1)
 
-print(exp2(2,3))
+# print(exp2(2,3))
 
 def exp3(a,b):
   if b == 1:
@@ -273,7 +273,7 @@ def exp3(a,b):
   # Odd case
   else: return a*exp3(a,b-1)
 
-print(exp3(2,3))
+# print(exp3(2,3))
 # But rate of growth! ->
 # 0(logB)
 # Reduce in half
@@ -291,3 +291,13 @@ print(exp3(2,3))
 
 # Temple of Hannoi ->
 # Discs from one post to another
+# exponential ->
+
+# bubble sort -> quadratic
+# a linear thing a linear # of times
+
+
+
+
+
+# LECTURE TEN - 10
