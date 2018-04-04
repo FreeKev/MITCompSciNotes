@@ -301,3 +301,45 @@ def exp3(a,b):
 
 
 # LECTURE TEN - 10
+
+# Divide & Conquer algorithm
+# Split into several problems of same type
+# Solve independent, combine solutions
+
+# ul to sorted -> mergeSort
+
+# EG Algorithm (See Grokking)
+
+# Complexity -> nlogn?
+# n -> n2 -> n4 -> base (then merge)
+# O(n) operations of each level
+# logn - nlogn
+
+# Hash table ->
+# Trade space for time ?
+# Hard to create good hash-function (go to good library)
+
+# last few lectures ->
+# How to learn and identify diff/classes algorithms
+# "That looks like a logarithmic algorithm bcs it has..."
+# brute force, guess/check, success of apprx, divide & conquer
+# What kind of algorithm would be most successful in this case?
+#
+# Linguistic thing of py -> Exceptions
+# See errors (eg asking for "foo" w/o defining)
+# Handled Exceptions ->
+#     Try: - except: block
+# Why? Some things may happen I would like to anticipate
+#     Filename (but if not present, do this...)
+#     Polymorphic
+#
+# Whats diff tween exception & assert?
+#     Goal of assert = func will give result if... else
+#     exception = Do whatever & ima handle it myself... else
+#
+# Why Exceptions?
+#     Best at time of input than 17 calls later
+
+
+
+# LECTURE ELEVEN - 11 
