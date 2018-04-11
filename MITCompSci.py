@@ -342,4 +342,49 @@ def exp3(a,b):
 
 
 
-# LECTURE ELEVEN - 11 
+# LECTURE ELEVEN - 11
+
+# Validation -> Process to uncover problems and increase confidence
+#     Testing and Reasoning
+# Debugging -> Process of ascertaining why program is failing
+#
+# Defensive programming abet validation & debugging
+#
+# 2 clases of testing
+#     Unit testing (validate each piece indep)
+#         Functions
+#     Integration testing (all together, does it work?)
+#         Big mistake to do right away, usually doesn't work
+#         overall
+#
+# What's so hard about testing?
+#     Test suite
+#         small enough
+#         large enough to boost confidence
+#
+# 2 best dedugging tools ->
+#     print statement
+#     reading
+#
+# [There's no substitute!]
+# Be systematic
+# Reduce search space
+#     localize source of problem
+#
+# Study program text
+#     How could it produce this result?
+#     Is it part of a family (systematic throughout?)?
+#     How do I fix it?
+#
+# Scientific method
+#     Study available data
+#         [all] test results
+#         Program text
+#     Form hypothesis consistent w/all data
+#     Design & implement repeatable experiment
+#     [must be able to refute hypothesis]
+#         useful intermediate results is nice
+#         expected result ->
+#
+# Use binary search (half it!)
+# 
