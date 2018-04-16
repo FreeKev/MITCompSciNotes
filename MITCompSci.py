@@ -387,4 +387,62 @@ def exp3(a,b):
 #         expected result ->
 #
 # Use binary search (half it!)
-# 
+#
+
+
+# Lecture 12 -> 
+#
+# Bug is prolly not where you think
+# Simple things 2 look 4:
+#     reversed order of arguments
+#         function takes two floats passed in wrong order, eg
+#     Spelling
+#         You see what you expect 2 see when reading
+#     Initialization
+#         When var are initialized (inside outside loop, eg)
+#     Obj vs. value equality
+#     Aliasing
+#         Deep vs. shallow copy
+#     Side-effects
+#     Keep record of what you've tried
+#         "Did you do this..." "Idk" Wasting time
+#     Reconsider assumptions
+#     Debug code, not comments
+#         Sometimes comments faulty
+#     Get help
+#         Swallow pride
+#         Explain what progy doing
+#             Act has helped identify process
+#     Walk away
+#         Latency for efficiency?
+#
+# When found
+#     Haste makes waste
+#         Think about fixing all symptoms
+#         What are ramifications of change?
+#             Will it break other things?
+#         Does it allow you to tidy other things?
+#             Code shouldn't always grow
+#         Make sure you can revert
+#             Debug to worse than started
+#             Save old versions
+#
+# Algorithms -> Problems (finding solutions)
+# Optimization Problems
+#     2 parts
+#         A function to maximize(min)
+#         A set of contraints
+#     EG Shortest path problem
+#         Time distance, no highways, etc. A2B
+#     EG Travelling Salesman
+#     EG Bin packing
+#         Which order how (tetris)
+#     EG Sequence alignment in biology
+#         DNA
+#     EG Backpack
+#         More things than able to take 4 hike
+#
+# Problem Reduction
+#     Is it an instance of another solved problem?
+#         Rather than invent my own answer
+#
