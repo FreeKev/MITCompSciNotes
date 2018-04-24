@@ -390,7 +390,7 @@ def exp3(a,b):
 #
 
 
-# Lecture 12 -> 
+# Lecture 12 ->
 #
 # Bug is prolly not where you think
 # Simple things 2 look 4:
@@ -446,3 +446,21 @@ def exp3(a,b):
 #     Is it an instance of another solved problem?
 #         Rather than invent my own answer
 #
+
+
+LECTURE 13
+
+
+Fast fibonacci solutions
+
+Optimal substructure
+    Global optimals solution can be constructed
+    from optimal solutions to sub-problems
+
+EG
+collection objects - a (with total weight)
+if size a = n, then 2^n is possible subsets
+
+Decision tree ->
+    (depth first, left first)
+    don't take 
