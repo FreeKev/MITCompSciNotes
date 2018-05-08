@@ -463,4 +463,49 @@ if size a = n, then 2^n is possible subsets
 
 Decision tree ->
     (depth first, left first)
-    don't take 
+
+Memoization -
+    Key idea of dynamic programming
+    "Let's remember what we've done and not do it again"
+
+LECTURE 14
+
+Dynamic Programming - Trading time for space
+Don't be intimidated by exponential problems
+Dynamic programming is broadly useful
+    W/natural recursive solution, think dynamic
+Problem reduction
+    O, this is ____ problem ->
+        Solve the well-known in diguise
+            Or transform into existing problem
+
+-> Py & program organization
+-> OOP
+
+Module (Modularity - Divide & conquer)
+    Collection of related functions
+    Refer to funcs using dot notation
+        import math
+        math.sqrt() etc
+        dot notation fixes ambiguity
+
+Classes
+    Used in diff ways & have been but ->
+    OOP
+        -> Data abstractions
+        AKA Abstract data types
+        widely accepted for 20 years
+            w/Java, C++, Py
+            Now all accept in some way
+
+OOP is
+    Object = collection of data & functions
+        Data & functions as single thing
+            Encapsulation
+                Data & methods
+    User defined types
+    Message Passing Metaphor
+
+Class = collection of object w/ characteristics in common
+    List -> Set of methods belonging to List
+    
